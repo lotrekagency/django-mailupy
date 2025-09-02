@@ -84,7 +84,6 @@ inside the `example` directory.
 django-mailupy
 ├─ LICENSE
 ├─ README.md
-├─ conftest.py
 ├─ example
 │  ├─ config
 │  │  ├─ __init__.py
@@ -108,13 +107,6 @@ django-mailupy
       ├─ urls.py
       └─ viewsets.py
 
-```
-
-## Testing
-Run tests with:
-
-```bash
-coverage run -m pytest
 ```
 
 ## License
