@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Django
+*.sqlite3
+*.log
+
+# VS Code
+.vscode/
+
+# Test & Coverage
+.coverage
+htmlcov/
+pytest_cache/
+.pytest_cache/
+
+# Environment
+.env
+.env.*
+
+# Migrations
+src/django_mailupy/migrations/*.pyc
+src/django_mailupy/migrations/__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Other
+*.bak
+*.swp
+
+# Ignore example DB
+example/db.sqlite3
