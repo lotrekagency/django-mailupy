@@ -1,0 +1,11 @@
+[run]
+branch = True
+source =
+    src/django_mailupy
+
+[report]
+omit =
+    */tests/*
+    */migrations/*
+    */__init__.py
+    */venv/*
