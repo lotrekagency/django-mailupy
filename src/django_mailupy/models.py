@@ -12,6 +12,7 @@ class MailupyCredentialManager(models.Manager):
 class MailupyCredential(models.Model):
     username = models.CharField(_("MailUp Username"), max_length=150)
     mailup_password = models.CharField(_("MailUp Password"), max_length=128)
+    error_contact_email = models.EmailField(_("Error Contact Email"), blank=True, null=True)
     objects = MailupyCredentialManager()
 
     class Meta:
